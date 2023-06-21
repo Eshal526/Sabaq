@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         calendar = Calendar.getInstance();
 
-        dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+        dateFormat = new SimpleDateFormat("MM-dd-yy");
         date = dateFormat.format(calendar.getTime());
         textView.setText(date);
 
